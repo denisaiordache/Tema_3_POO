@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/denys/Tema_3_POO/Cont.h
+string
+-
+iostream
+-
+
+C:/Users/denys/Tema_3_POO/Cont_Economii.cpp
+Cont_Economii.h
+C:/Users/denys/Tema_3_POO/Cont_Economii.h
+
+C:/Users/denys/Tema_3_POO/Cont_Economii.h
+Cont.h
+C:/Users/denys/Tema_3_POO/Cont.h
+string
+-
+
