@@ -14,6 +14,7 @@ protected:
     string detinator;
     string data;
     double sold;
+    static int nr_conturi;
 public:
     Cont();
     Cont(string &det, string &d, double s);
@@ -22,7 +23,7 @@ public:
     virtual ~Cont()= default;
     friend istream &operator >> (istream &in, Cont &c);
     friend ostream &operator << (ostream &out, const Cont &c);
-    virtual void afis();
+    virtual void afis()=0;
     double getSold();
 
 

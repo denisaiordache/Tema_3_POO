@@ -86,10 +86,22 @@
 		<Unit filename="C:/Users/denys/Tema_3_POO/Cont.h">
 			<Option target="Tema_3_POO"/>
 		</Unit>
+		<Unit filename="C:/Users/denys/Tema_3_POO/Cont_Curent.cpp">
+			<Option target="Tema_3_POO"/>
+		</Unit>
+		<Unit filename="C:/Users/denys/Tema_3_POO/Cont_Curent.h">
+			<Option target="Tema_3_POO"/>
+		</Unit>
 		<Unit filename="C:/Users/denys/Tema_3_POO/Cont_Economii.cpp">
 			<Option target="Tema_3_POO"/>
 		</Unit>
 		<Unit filename="C:/Users/denys/Tema_3_POO/Cont_Economii.h">
+			<Option target="Tema_3_POO"/>
+		</Unit>
+		<Unit filename="C:/Users/denys/Tema_3_POO/Gestionare_Conturi.cpp">
+			<Option target="Tema_3_POO"/>
+		</Unit>
+		<Unit filename="C:/Users/denys/Tema_3_POO/Gestionare_Conturi.h">
 			<Option target="Tema_3_POO"/>
 		</Unit>
 		<Unit filename="C:/Users/denys/Tema_3_POO/main.cpp">

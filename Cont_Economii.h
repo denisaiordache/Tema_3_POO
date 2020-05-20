@@ -20,7 +20,10 @@ public:
     Cont_Economii(const Cont_Economii &c);
     Cont_Economii& operator = (const Cont_Economii& c);
     friend istream &operator >> (istream &in, Cont_Economii &c);
-    friend ostream &operator << (ostream &out, const Cont_Economii &c);
+    friend ostream &operator << (ostream &out, Cont_Economii &c);
+    void afis() override;
+    const int get_nr_luni(){return nr_luni;}
+    void depunere(double val);
 
 
 

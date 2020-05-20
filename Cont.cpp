@@ -38,14 +38,21 @@ istream &operator>>(istream &in, Cont &c) {
     cout<<"Detinator:"<<"";
     getline(in,c.detinator);
     cout<<"Data:"<<"";
-    getline(in,c.data);
+
+    try
+    {   getline(in,c.data);
+        if(c.data.substr(0,2)>="32" or c.data.substr(3,2)>"12")
+        throw 'a';}
+    catch(char x){
+        cout<<"Data introdusa gresit!!";
+    }
     cout<<"Sold:"<<"";
     in>>c.sold;
     return in;
 }
 
 ostream &operator<<(ostream &out, const Cont &c) {
-    out<<"Nume detinator:"<<" "<<c.detinator<<'\n';
+    out<<"Detinator cont:"<<" "<<c.detinator<<'\n';
     out<<"Data deschiderii contului:"<<" "<<c.data<<'\n';
     out<<"Sold cont:"<<" "<<c.sold<<'\n';
     return out;

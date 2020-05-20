@@ -12,13 +12,25 @@ string
 iostream
 -
 
-C:/Users/denys/Tema_3_POO/Cont_Economii.cpp
-Cont_Economii.h
-C:/Users/denys/Tema_3_POO/Cont_Economii.h
+C:/Users/denys/Tema_3_POO/Cont_Curent.h
+Cont.h
+C:/Users/denys/Tema_3_POO/Cont.h
 
 C:/Users/denys/Tema_3_POO/Cont_Economii.h
 Cont.h
 C:/Users/denys/Tema_3_POO/Cont.h
 string
+-
+
+C:/Users/denys/Tema_3_POO/main.cpp
+iostream
+-
+Cont.h
+C:/Users/denys/Tema_3_POO/Cont.h
+Cont_Economii.h
+C:/Users/denys/Tema_3_POO/Cont_Economii.h
+Cont_Curent.h
+C:/Users/denys/Tema_3_POO/Cont_Curent.h
+vector
 -
 

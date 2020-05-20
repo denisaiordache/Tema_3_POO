@@ -149,6 +149,33 @@ Cont.cpp.s:
 	$(MAKE) -f CMakeFiles\Tema_3_POO.dir\build.make CMakeFiles/Tema_3_POO.dir/Cont.cpp.s
 .PHONY : Cont.cpp.s
 
+Cont_Curent.obj: Cont_Curent.cpp.obj
+
+.PHONY : Cont_Curent.obj
+
+# target to build an object file
+Cont_Curent.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tema_3_POO.dir\build.make CMakeFiles/Tema_3_POO.dir/Cont_Curent.cpp.obj
+.PHONY : Cont_Curent.cpp.obj
+
+Cont_Curent.i: Cont_Curent.cpp.i
+
+.PHONY : Cont_Curent.i
+
+# target to preprocess a source file
+Cont_Curent.cpp.i:
+	$(MAKE) -f CMakeFiles\Tema_3_POO.dir\build.make CMakeFiles/Tema_3_POO.dir/Cont_Curent.cpp.i
+.PHONY : Cont_Curent.cpp.i
+
+Cont_Curent.s: Cont_Curent.cpp.s
+
+.PHONY : Cont_Curent.s
+
+# target to generate assembly for a file
+Cont_Curent.cpp.s:
+	$(MAKE) -f CMakeFiles\Tema_3_POO.dir\build.make CMakeFiles/Tema_3_POO.dir/Cont_Curent.cpp.s
+.PHONY : Cont_Curent.cpp.s
+
 Cont_Economii.obj: Cont_Economii.cpp.obj
 
 .PHONY : Cont_Economii.obj
@@ -175,6 +202,33 @@ Cont_Economii.s: Cont_Economii.cpp.s
 Cont_Economii.cpp.s:
 	$(MAKE) -f CMakeFiles\Tema_3_POO.dir\build.make CMakeFiles/Tema_3_POO.dir/Cont_Economii.cpp.s
 .PHONY : Cont_Economii.cpp.s
+
+Gestionare_Conturi.obj: Gestionare_Conturi.cpp.obj
+
+.PHONY : Gestionare_Conturi.obj
+
+# target to build an object file
+Gestionare_Conturi.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tema_3_POO.dir\build.make CMakeFiles/Tema_3_POO.dir/Gestionare_Conturi.cpp.obj
+.PHONY : Gestionare_Conturi.cpp.obj
+
+Gestionare_Conturi.i: Gestionare_Conturi.cpp.i
+
+.PHONY : Gestionare_Conturi.i
+
+# target to preprocess a source file
+Gestionare_Conturi.cpp.i:
+	$(MAKE) -f CMakeFiles\Tema_3_POO.dir\build.make CMakeFiles/Tema_3_POO.dir/Gestionare_Conturi.cpp.i
+.PHONY : Gestionare_Conturi.cpp.i
+
+Gestionare_Conturi.s: Gestionare_Conturi.cpp.s
+
+.PHONY : Gestionare_Conturi.s
+
+# target to generate assembly for a file
+Gestionare_Conturi.cpp.s:
+	$(MAKE) -f CMakeFiles\Tema_3_POO.dir\build.make CMakeFiles/Tema_3_POO.dir/Gestionare_Conturi.cpp.s
+.PHONY : Gestionare_Conturi.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -215,9 +269,15 @@ help:
 	@echo ... Cont.obj
 	@echo ... Cont.i
 	@echo ... Cont.s
+	@echo ... Cont_Curent.obj
+	@echo ... Cont_Curent.i
+	@echo ... Cont_Curent.s
 	@echo ... Cont_Economii.obj
 	@echo ... Cont_Economii.i
 	@echo ... Cont_Economii.s
+	@echo ... Gestionare_Conturi.obj
+	@echo ... Gestionare_Conturi.i
+	@echo ... Gestionare_Conturi.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
