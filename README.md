@@ -1,0 +1,7 @@
+# Gestionare conturi bancare 
+Proiect ce simulează activitatea unei bănci, implementând principiile de bază ale programării orientate pe obiecte: clase, obiecte, encapsulare, constructori, destructori, modificatori de acces, template-uri, supraîncărcarea operatorilor, moștenire, polimorfism
+
+# Cerință
+Se doreste implementarea unei aplicatii care sa permita gestionarea conturilor deschise la banca X. Fiecare cont bancar are obligatoriu un detinator, o data a deschiderii lui si un sold. In cazul conturilor de economii, trebuie retinuta si rata dobanzii (care poate fi pe 3 luni, pe 6 luni sau la un an), precum si un istoric al reactualizarii soldurilor de la deschidere si pana in prezent. In cazul in care detinatorul opteaza pentru un cont curent, el beneficiaza de un numar de tranzactii gratuite si altele contra cost (de exemplu orice depunere este gratuita, dar retragerea poate sa coste daca s-a depasit numarul de tranzactii gratuite, sau e facuta de la bancomatele altor banci; sau orice cumparatura online are un cost, etc.). Simulati cat mai corect activitatea bancii X.
+- Sa se construiasca clasa template GestionareConturi care sa conțină informații despre banca X. Clasa conține indexul unui cont (incrementat automat la adaugarea unuia nou prin supraincarcarea operatorului +=)  și un vector de pointeri la obiecte de tip ContBancar, alocat dinamic. 
+- Sa se construiasca o specializare pentru tipul int care sa trateze exceptiile ce pot aparea de la utilizarea valorilor negative. 
